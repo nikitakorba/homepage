@@ -83,10 +83,6 @@
                 (sec < 10 ? ("0" + sec) : sec);
         }
 
-        function convertToCelsius(temp) {
-            return ((temp - 32) * 0.5556).toFixed(0);
-        }
-
         window.onload = () => {
             let xhr = new XMLHttpRequest();
             // Request to open weather map
